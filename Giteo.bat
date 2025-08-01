@@ -85,7 +85,6 @@ IF %INTERNET_STATUS% NEQ 0 (
     echo ERROR: No se detectó la conexión a Internet.
     echo No se puede gitear sin conexión.
     echo.
-    pause
     GOTO END_SCRIPT
 )
 echo.
